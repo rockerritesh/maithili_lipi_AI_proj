@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tirhuta Vowels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/styles.css">
+  </head>
+  <body>
+    <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-center mb-5">Tirhuta Vowels</h1>
+      <form id="form" method="post" action="predict" enctype="multipart/form-data">
+        <div class="form-group">
+          <input type="file" name="image" accept="image/*" required>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Predict</button>
+        </div>
+      </form>
+      <div id="output" class="mt-5">
+        <img id="image-preview" style="display:none" height=200 width=200>
+        <h2 id="prediction" class="text-center"></h2>
+      </div>
+    </div>
+    <script>
+      var form = document.getElementById("form");
+      form.onsubmit = function() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/predict", true);
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            var json = JSON.parse(xhr.responseText);
+            document.getElementById("prediction").innerHTML = json.prediction;
+            document.getElementById("image-preview").src = json.image_url+ "?random=" + Math.random();
+            document.getElementById("image-preview").style.display = "block";
+          }
+        };
+        var formData = new FormData(form);
+        xhr.send(formData);
+        return false;
+      }
+    </script>
+  </body>
+  <footer class="bg-light py-3">
+    <div class="container">
+        <p class="text-center">Made with 💖 and <a href="https://github.com/Your-Github-Username/image_disease">GitHub</a></p>
+    </div>
+  </footer>
+</html>
