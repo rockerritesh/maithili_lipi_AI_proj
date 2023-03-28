@@ -391,7 +391,8 @@ References References
 1. Y. Kim, ”Convolutional Neural Networks for Sentence Classification,” in Proceedings of the Conference on Empirical Methods in Natural Language Processing, Doha, Qatar, 2014, pp. 1746-1751, doi: 10.1162/153244303322533223.
 1. ”Decision tree,” Wikipedia, last modifiedJanuary 31, 2022.[ https://en.wikipedia. org/wiki/Decision_tree](https://en.wikipedia.org/wiki/Decision_tree)
 1. ”Decision tree learning - Gini impurity,” Wikipedia, last modified January 17, 2022. <https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity>
-10. IMAGES
+
+10. [IMAGES](#_page24_x99.21_y674.85)
 
 This page contains images, and visualizations.
 
