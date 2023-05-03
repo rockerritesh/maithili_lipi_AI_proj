@@ -20,13 +20,15 @@ This project contributes to the growing field of natural language processing for
 
 |Model|Accuracy|
 | - | - |
-|SVC (raw image)|0.61|
 |KNN (raw image)|0.47|
 |MobileNet embedding + Decision Tree|0.55|
+|SVC (raw image)|0.61|
 |MobileNet embedding + Gradient Boosting|0.86|
-|MobileNet embedding + Logistic Regression|0.97|
-|MobileNet embedding + SVC|0.95|
 |MobileNet embedding + KNN|0.94|
+|MobileNet embedding + SVC|0.95|
+|MobileNet embedding + Logistic Regression|0.97|
+
+
 
 # Preview
 ![](https://github.com/rockerritesh/maithili_lipi_AI_proj/blob/main/website)
