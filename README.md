@@ -41,6 +41,10 @@ We would also like to express our gratitude to the Department of Electronics and
 
 Last but not least, we would like to thank our instructor, Basant Joshi, for his guidance, encouragement, and support throughout this project. His expertise and knowledge have been invaluable in helping us to achieve our research objectives.
 
+```
+Yadav, Sumit & Yadav, Raju. (2023). Machine Learning Analysis of Tirhuta Lipi. 10.13140/RG.2.2.15213.97765.
+```
+
 Finally, we would like to acknowledge the contribution of all the authors of this research report, namely Sumit Yadav, Raju Kumar Yadav, and Prashant Bhandari, for their hard work, dedication, and collaborative efforts in producing this research.
 
 Any kind of suggestion or criticism will be highly appreciated and acknowledged.
